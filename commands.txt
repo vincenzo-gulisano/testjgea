@@ -1,0 +1,59 @@
+
+mvn archetype:generate -DgroupId=com.example -DartifactId=testjgea -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+cd testjgea
+
+mvn clean install
+
+ERROR
+
+Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project testjgea: Compilation failure: Compilation failure: 
+[ERROR] Source option 5 is no longer supported. Use 8 or later.
+[ERROR] Target option 5 is no longer supported. Use 8 or later.
+
+
+	<properties>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+	</properties>
+
+    <build>
+        <plugins>
+            <!-- Compiler Plugin to use Java 8 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+mvn clean install works
+
+added
+
+		<jgea.version>2.7.1-SNAPSHOT</jgea.version>
+
+and 
+
+    <dependency>
+      <groupId>io.github.ericmedvet</groupId>
+      <artifactId>jgea.core</artifactId>
+      <version>${jgea.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.ericmedvet</groupId>
+      <artifactId>jgea.problem</artifactId>
+      <version>${jgea.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.ericmedvet</groupId>
+      <artifactId>jgea.experimenter</artifactId>
+      <version>${jgea.version}</version>
+    </dependency>
+
+this does not work, of course, because it cannot find the versions 
