@@ -1,75 +1,3 @@
- 1041  tail probs.csv 
- 1042  tail rewards.steps.csv 
- 1043  tail probs.csv 
- 1044  tail rewards.steps.csv 
- 1045  tail probs.csv 
- 1046  tail rewards.steps.csv 
- 1047  tail probs.csv 
- 1048  tail rewards.steps.csv 
- 1049  tail probs.csv 
- 1050  tail rewards.steps.csv 
- 1051  cd ../../LOB/synthetic5s/
- 1052  tail rewards.steps.csv 
- 1053  tail probs.csv 
- 1054  tail -n 150 python_agent.log 
- 1055  tail probs.csv 
- 1056  ls -la
- 1057  tail probs.csv 
- 1058  tail -n 150 python_agent.log 
- 1059  tail rewards.steps.csv 
- 1060  tail -n 150 python_agent.log 
- 1061  tail probs.csv 
- 1062  tail -n 150 python_agent.log 
- 1063  tail probs.csv 
- 1064  tail -n 150 python_agent.log 
- 1065  tail probs.csv 
- 1066  tail -n 150 python_agent.log 
- 1067  tail rewards.steps.csv 
- 1068  tail probs.csv 
- 1069  tail rewards.steps.csv 
- 1070  tail probs.csv 
- 1071  tail -n 150 python_agent.log 
- 1072  tail probs.csv 
- 1073  tail -n 150 python_agent.log 
- 1074  tail probs.csv 
- 1075  tail -n 150 python_agent.log 
- 1076  tail -n 150 spe.log 
- 1077  tail -n 150 python_agent.log 
- 1078  tail probs.csv 
- 1079  tail -n 150 python_agent.log 
- 1080  tail probs.csv 
- 1081  screen -r pts-3.cse-3401002 
- 1082  cd ..
- 1083  cd ELOB/
- 1084  cd synthetic5s/
- 1085  grep ",True,-1" rewards.
- 1086  grep ",True,-1" rewards.steps.csv 
- 1087  grep ",True,30" rewards.steps.csv 
- 1088  tail rewards.steps.csv 
- 1089  tail probs.csv 
- 1090  grep ",True,-1" probs.csv 
- 1091  grep ",True,0" probs.csv 
- 1092  grep ",True,2" probs.csv 
- 1093  cd ..
- 1094  cd WELOB/
- 1095  cd synthetic5s/
- 1096  grep ",True,-1" probs.csv 
- 1097  grep ",True,0" probs.csv 
- 1098  grep ",True,2" probs.csv 
- 1099  cd ..
- 1100  cd LOB/synthetic5s/
- 1101  scree
- 1102  screen
- 1103  cd ..
- 1104  cd ELOB/synthetic5s/
- 1105  tail -n 150 python_agent.log 
- 1106  grep "99.00" python_agent.log | head
- 1107  grep "99.00 " python_agent.log | head
- 1108  grep "99.00 " python_agent.log | grep "CPU" | head
- 1109  cd ..
- 1110  cd WELOB/
- 1111  grep "99.00 " python_agent.log | grep "CPU" | head
- 1112  cd synthetic5s/
  1113  grep "99.00 " python_agent.log | grep "CPU" | head
  1114  cd ..
  1115  cd LOB/
@@ -922,7 +850,7 @@
  1962  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -d -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
  1963  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
  1964  mvn clean package
- 1965  cd ..
+ 1965* 
  1966  mvn clean package
  1967  cd io.github.ericmedvet.jgea.
  1968  cd io.github.ericmedvet.jgea.experimenter/
@@ -962,14 +890,24 @@
  2002  mvn dependency:tree | grep operators
  2003  mvn dependency:tree
  2004  mkdir temp-jar1 temp-jar2
+ 2005  jar -xf ~/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar -C temp-jar1
+ 2006  jar -xvf ~/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar -C temp-jar1
+ 2007  jar --help
+ 2008  jar -xvf ~/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar -C temp-jar1/
  2009  cd temp-jar1/
  2010  jar -xvf ~/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar
  2011  cd ../temp-jar2/
  2012  jar -xvf ~/.m2/repository/org/apache/flink/flink-core/1.20.0/flink-core-1.20.0.jar 
  2013  cd ..
+ 2014  mvn clean package
  2015  mkdir mergedjar
  2016  cp -R temp-jar1/* mergedjar/
  2017  cp -R temp-jar2/* mergedjar/
+ 2018  jar -cf merged-jar.jar -C merged-jar .
+ 2019  jar -cf merged-jar.jar -C mergedjar .
+ 2020  mvn install:install-file -Dfile=merged-jar.jar -DgroupId=custom.merged -DartifactId=merged-jar -Dversion=1.0 -Dpackaging=jar
+ 2021  mvn clean package
+ 2022  cd temp-jar3
  2023  mkdir temp-jar3
  2024  cd temp-jar3/
  2025  jar -xvf ~/.m2/repository/org/apache/flink/flink-core-api/1.20.0/flink-core-api-1.20.0.jar 
@@ -978,9 +916,85 @@
  2028  jar -cf merged-jar.jar -C mergedjar .
  2029  mvn install:install-file -Dfile=merged-jar.jar -DgroupId=custom.merged -DartifactId=merged-jar -Dversion=1.0 -Dpackaging=jar
  2030  mvn clean package
+ 2031  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 2032  ls
+ 2033  cat ~/testjgea/src/main/resources/experiments/experiment.txt
+ 2034  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
  2035  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
  2036  mvn clean package
  2037  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
  2038  tail -n 200 ~/.bash_history > last_200_commands.txt
  2039  history
  2040  history > last_200_commands.txt 
+ 2041  mvn clean package
+ 2042  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2043  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/config.prooperties"
+ 2044  mvn clean package
+ 2045  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/config.prooperties"
+ 2046  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2047  mkdir temp-jar4
+ 2048  cd temp-jar4/
+ 2049  jar -xvf ~/.m2/repository/org/apache/flink/flink-connector-datagen/1.20.0/flink-connector-datagen-1.20.0.jar 
+ 2050  cd ..
+ 2051  cp -R temp-jar4/* mergedjar/
+ 2052  jar -cf merged-jar.jar -C mergedjar .
+ 2053  mvn install:install-file -Dfile=merged-jar.jar -DgroupId=custom.merged -DartifactId=merged-jar -Dversion=1.0 -Dpackaging=jar
+ 2054  mvn clean package
+ 2055  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2056  mkdir temp-jar5
+ 2057  cd temp-jar5/
+ 2058  jar -xvf ~/.m2/repository/org/apache/flink/flink-java/1.20.0/flink-java-1.20.0.jar 
+ 2059  cd ..
+ 2060  cp -R temp-jar5/* mergedjar/
+ 2061  jar -cf merged-jar.jar -C mergedjar .
+ 2062  mvn install:install-file -Dfile=merged-jar.jar -DgroupId=custom.merged -DartifactId=merged-jar -Dversion=1.0 -Dpackaging=jar
+ 2063  mvn clean package
+ 2064  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2065  mvn clean package
+ 2066  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2067  mkdir temp-jar6
+ 2068  cd temp-jar6
+ 2069  jar -xvf ~/.m2/repository/org/apache/flink/flink-runtime/1.20.0/flink-runtime-1.20.0.jar 
+ 2070  cd ..
+ 2071  cp -R temp-jar6/* mergedjar/
+ 2072  jar -cf merged-jar.jar -C mergedjar .
+ 2073  mvn install:install-file -Dfile=merged-jar.jar -DgroupId=custom.merged -DartifactId=merged-jar -Dversion=1.0 -Dpackaging=jar
+ 2074  mvn clean package
+ 2075  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2076  mvn clean package
+ 2077  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2078  mvn clean
+ 2079  mvn package
+ 2080  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2081  grep -r "snake" .
+ 2082  java.lang.NoClassDefFoundError: org/snakeyaml/engine/v2/exceptions/MarkedYamlEngineException
+ 2083  java.lang.NoClassDefFoundError: org/snakeyaml/engine/v2/exceptions/MarkedYamlEngineExceptio
+ 2084  mvn dependency:build-classpath 
+ 2085  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2086  mvn clean
+ 2087  mvn package
+ 2088  mvn dependency:build-classpath 
+ 2089  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2090  mkdir temp-jar7
+ 2091  cd temp-jar7
+ 2092  jar -xvf ~/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar 
+ 2093  jar -xvf ~/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar 
+ 2094  mvn clean package
+ 2095  cd ..
+ 2096  mvn clean package
+ 2097  mvn dependency:build-classpath 
+ 2098  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2099  mvn clean package
+ 2100  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2101  mvn clean package
+ 2102  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2103  mvn clean package
+ 2104  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2105  mvn exec:java -v -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2106  mvn exec:java -V -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2107  mvn exec:java -V -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt" -Dexec.jvmArgs="--add-opens java.base/java.util=ALL-UNNAMED"
+ 2108  mvn:exec
+ 2109  mvn exec:java
+ 2110  mvn exec:java -V -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt" -Dexec.jvmArgs="--add-opens java.base/java.util=ALL-UNNAMED"
+ 2111* mvn exec:java -X -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt" -Dexec.jvmArgs="--add-opens java.base/java.util=ALL-UNNAMEDhistory"
+ 2112  history > last_200_commands.txt 
