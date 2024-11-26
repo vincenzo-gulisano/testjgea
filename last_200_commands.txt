@@ -1,0 +1,986 @@
+ 1041  tail probs.csv 
+ 1042  tail rewards.steps.csv 
+ 1043  tail probs.csv 
+ 1044  tail rewards.steps.csv 
+ 1045  tail probs.csv 
+ 1046  tail rewards.steps.csv 
+ 1047  tail probs.csv 
+ 1048  tail rewards.steps.csv 
+ 1049  tail probs.csv 
+ 1050  tail rewards.steps.csv 
+ 1051  cd ../../LOB/synthetic5s/
+ 1052  tail rewards.steps.csv 
+ 1053  tail probs.csv 
+ 1054  tail -n 150 python_agent.log 
+ 1055  tail probs.csv 
+ 1056  ls -la
+ 1057  tail probs.csv 
+ 1058  tail -n 150 python_agent.log 
+ 1059  tail rewards.steps.csv 
+ 1060  tail -n 150 python_agent.log 
+ 1061  tail probs.csv 
+ 1062  tail -n 150 python_agent.log 
+ 1063  tail probs.csv 
+ 1064  tail -n 150 python_agent.log 
+ 1065  tail probs.csv 
+ 1066  tail -n 150 python_agent.log 
+ 1067  tail rewards.steps.csv 
+ 1068  tail probs.csv 
+ 1069  tail rewards.steps.csv 
+ 1070  tail probs.csv 
+ 1071  tail -n 150 python_agent.log 
+ 1072  tail probs.csv 
+ 1073  tail -n 150 python_agent.log 
+ 1074  tail probs.csv 
+ 1075  tail -n 150 python_agent.log 
+ 1076  tail -n 150 spe.log 
+ 1077  tail -n 150 python_agent.log 
+ 1078  tail probs.csv 
+ 1079  tail -n 150 python_agent.log 
+ 1080  tail probs.csv 
+ 1081  screen -r pts-3.cse-3401002 
+ 1082  cd ..
+ 1083  cd ELOB/
+ 1084  cd synthetic5s/
+ 1085  grep ",True,-1" rewards.
+ 1086  grep ",True,-1" rewards.steps.csv 
+ 1087  grep ",True,30" rewards.steps.csv 
+ 1088  tail rewards.steps.csv 
+ 1089  tail probs.csv 
+ 1090  grep ",True,-1" probs.csv 
+ 1091  grep ",True,0" probs.csv 
+ 1092  grep ",True,2" probs.csv 
+ 1093  cd ..
+ 1094  cd WELOB/
+ 1095  cd synthetic5s/
+ 1096  grep ",True,-1" probs.csv 
+ 1097  grep ",True,0" probs.csv 
+ 1098  grep ",True,2" probs.csv 
+ 1099  cd ..
+ 1100  cd LOB/synthetic5s/
+ 1101  scree
+ 1102  screen
+ 1103  cd ..
+ 1104  cd ELOB/synthetic5s/
+ 1105  tail -n 150 python_agent.log 
+ 1106  grep "99.00" python_agent.log | head
+ 1107  grep "99.00 " python_agent.log | head
+ 1108  grep "99.00 " python_agent.log | grep "CPU" | head
+ 1109  cd ..
+ 1110  cd WELOB/
+ 1111  grep "99.00 " python_agent.log | grep "CPU" | head
+ 1112  cd synthetic5s/
+ 1113  grep "99.00 " python_agent.log | grep "CPU" | head
+ 1114  cd ..
+ 1115  cd LOB/
+ 1116  grep "99.00 " python_agent.log | grep "CPU" | head
+ 1117  cd synthetic5s/
+ 1118  grep "99.00 " python_agent.log | grep "CPU" | head
+ 1119  cat probs.csv 
+ 1120  tail -n 150 python_agent.log 
+ 1121  tail -n 150 spe.log 
+ 1122  tail -n 150 python_agent.log 
+ 1123  tail -n 150 spe.log 
+ 1124  tail -n 150 python_agent.log 
+ 1125  pwd
+ 1126  tail -n 150 python_agent.log 
+ 1127  screen -r pts-3.cse-3401002 
+ 1128  screen
+ 1129  tail -n 150 python_agent.log 
+ 1130  tail -n 150 python_agent.log
+ 1131  tail -n 150 python_agent.log 
+ 1132  tail -n 150 python_agent.log
+ 1133  tail -n 150 spe.log 
+ 1134  cat probs.csv 
+ 1135  screen -r pts-3.cse-3401002 
+ 1136  ls -la
+ 1137  tail episodes.csv 
+ 1138  tail python_agent.log 
+ 1139  tail spe.log 
+ 1140  screen -r pts-3.cse-3401002 
+ 1141  pkill -9 java
+ 1142  screen
+ 1143  ls -la
+ 1144  head s_paras/
+ 1145  ls -la
+ 1146  head spe.log 
+ 1147  more spe.log 
+ 1148  ls -la
+ 1149  tail -n 150 python_agent.log 
+ 1150  cat rewards.steps.csv 
+ 1151  cat probs.csv 
+ 1152  tail -n 150 python_agent.log 
+ 1153  cat probs.csv 
+ 1154  tail -n 150 python_agent.log 
+ 1155  cat probs.csv 
+ 1156  tail -n 150 python_agent.log 
+ 1157  cat probs.csv 
+ 1158  tail -n 150 python_agent.log 
+ 1159  cat probs.csv 
+ 1160  tail -n 150 python_agent.log 
+ 1161  cat probs.csv 
+ 1162  tail -n 150 python_agent.log 
+ 1163  cat probs.csv 
+ 1164  cat rewards.steps.csv 
+ 1165  cat probs.csv 
+ 1166  cat rewards.steps.csv 
+ 1167  cat probs.csv 
+ 1168  tail -n 150 python_agent.log 
+ 1169  cat probs.csv 
+ 1170  cat rewards.steps.csv 
+ 1171  tail -n 150 python_agent.log 
+ 1172  cat rewards.steps.csv 
+ 1173  tail -n 150 python_agent.log 
+ 1174  cat probs.csv 
+ 1175  tail -n 150 python_agent.log 
+ 1176  cat probs.csv 
+ 1177  cat rewards.steps.csv 
+ 1178  tail -n 150 python_agent.log 
+ 1179  cat probs.csv 
+ 1180  tail -n 150 python_agent.log 
+ 1181  cat rewards.steps.csv 
+ 1182  cat probs.csv 
+ 1183  cat rewards.steps.csv 
+ 1184  cat probs.csv 
+ 1185  cat rewards.steps.csv 
+ 1186  cat probs.csv 
+ 1187  cat rewards.steps.csv 
+ 1188  cat probs.csv 
+ 1189  tail -n 150 python_agent.log 
+ 1190  cat rewards.steps.csv 
+ 1191  tail -n 150 python_agent.log 
+ 1192  cat rewards.steps.csv 
+ 1193  cat probs.csv 
+ 1194  tail -n 150 python_agent.log 
+ 1195  cat probs.csv 
+ 1196  cat rewards.steps.csv 
+ 1197  cat probs.csv 
+ 1198  tail -n 150 python_agent.log 
+ 1199  cat rewards.steps.csv 
+ 1200  cat probs.csv 
+ 1201  tail -n 150 python_agent.log 
+ 1202  cat probs.csv 
+ 1203  cat rewards.steps.csv 
+ 1204  cat probs.csv 
+ 1205  cat rewards.steps.csv 
+ 1206  cat probs.csv 
+ 1207  cat rewards.steps.csv 
+ 1208  tail -n 150 python_agent.log 
+ 1209  cd romeo/data/output/WELAW/synthetic5s/
+ 1210  tail rewards.steps.csv 
+ 1211  tail probs.csv 
+ 1212  tail rewards.steps.csv 
+ 1213  tail probs.csv 
+ 1214  tail rewards.steps.csv 
+ 1215  tail probs.csv 
+ 1216  tail rewards.steps.csv 
+ 1217  tail probs.csv 
+ 1218  tail rewards.steps.csv 
+ 1219  tail probs.csv 
+ 1220  tail rewards.steps.csv 
+ 1221  tail probs.csv 
+ 1222  tail rewards.steps.csv 
+ 1223  tail probs.csv 
+ 1224  tail rewards.steps.csv 
+ 1225  tail probs.csv 
+ 1226  tail rewards.steps.csv 
+ 1227  tail probs.csv 
+ 1228  tail rewards.steps.csv 
+ 1229  tail probs.csv 
+ 1230  tail rewards.steps.csv 
+ 1231  tail probs.csv 
+ 1232  tail rewards.steps.csv 
+ 1233  tail probs.csv 
+ 1234  tail rewards.steps.csv 
+ 1235  tail probs.csv 
+ 1236  tail rewards.steps.csv 
+ 1237  tail -n 150 python_agent.log 
+ 1238  tail probs.csv 
+ 1239  tail rewards.steps.csv 
+ 1240  tail probs.csv 
+ 1241  tail rewards.steps.csv 
+ 1242  tail probs.csv 
+ 1243  tail rewards.steps.csv 
+ 1244  tail -n 150 python_agent.log 
+ 1245  conda activate romeo
+ 1246  cd ..
+ 1247  ./scripts/all_usecases_policies.sh 
+ 1248  git pull
+ 1249  cd data/output/
+ 1250  rm -rf *
+ 1251  screen -r 
+ 1252  exitexit
+ 1253  exit
+ 1254  conda activate romeo
+ 1255  ./scripts/all_usecases_policies.sh 
+ 1256  exit
+ 1257  conda activate romeo
+ 1258  ./scripts/all_usecases_policies.sh 
+ 1259  exit
+ 1260  conda activate romeo
+ 1261  ./scripts/all_usecases_policies.sh 
+ 1262  exit
+ 1263  conda activate romeo
+ 1264  ./scripts/all_usecases_policies.sh 
+ 1265  exit
+ 1266  /usr/bin/python3 /home/vincenzo/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/vincenzo/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+ 1267  ./scripts/all_usecases_policies.sh 
+ 1268  screen -r pts-0.cse-3401002 
+ 1269  ./scripts/stop_all.sh 
+ 1270  ./scripts/stop_kafka.sh 
+ 1271  ./scripts/all_usecases_policies.sh 
+ 1272  exit
+ 1273  top -u vincenzo
+ 1274  cd romeo/
+ 1275  screen
+ 1276  cd data/output/WELOB/synthetic/
+ 1277  ls -la
+ 1278  tail spe.log 
+ 1279  cat python_agent.log 
+ 1280  tail spe.log 
+ 1281  screen
+ 1282  git diff
+ 1283  git log
+ 1284  screen -r pts-9.cse-3401002 
+ 1285  screen
+ 1286  python plotting/actions_rewards.py data/exp16.17
+ 1287  /usr/bin/python3 /home/vincenzo/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/vincenzo/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+ 1288  cd romeo/data/output/WELOB/synthetic/ls -la
+ 1289  ls -la
+ 1290  cd romeo/data/output/WELOB/synthetic/
+ 1291  ls -la
+ 1292  top -u vincenzo
+ 1293  tail spe.log 
+ 1294  screen -r 
+ 1295  pkill -9 screen
+ 1296  top -u vincenzo
+ 1297  pkill -9 java
+ 1298  pkill -9 python
+ 1299  top -u vincenzo
+ 1300  pkill -9 java
+ 1301  top -u 
+ 1302  pkill -9 node
+ 1303  pkill -9 java
+ 1304  top -u vincenzo
+ 1305  ls -la
+ 1306  tail probs.csv 
+ 1307  tail rewards.
+ 1308  tail rewards.steps.csv 
+ 1309  tail probs.csv 
+ 1310  tail rewards.steps.csv 
+ 1311  tail probs.csv 
+ 1312  tail rewards.steps.csv 
+ 1313  tail probs.csv 
+ 1314  tail rewards.steps.csv 
+ 1315  tail probs.csv 
+ 1316  cd ../../ELOB/synthetic/
+ 1317  tail rewards.steps.csv 
+ 1318  tail probs.csv 
+ 1319  tail rewards.steps.csv 
+ 1320  tail probs.csv 
+ 1321  tail rewards.steps.csv 
+ 1322  tail probs.csv 
+ 1323  tail rewards.steps.csv 
+ 1324  tail probs.csv 
+ 1325  tail rewards.steps.csv 
+ 1326  tail probs.csv 
+ 1327  tail rewards.steps.csv 
+ 1328  tail probs.csv 
+ 1329  tail rewards.steps.csv 
+ 1330  tail probs.csv 
+ 1331  cd ../../LOB/synthetic/
+ 1332  tail rewards.steps.csv 
+ 1333  tail probs.csv 
+ 1334  tail rewards.steps.csv 
+ 1335  tail probs.csv 
+ 1336  tail rewards.steps.csv 
+ 1337  tail probs.csv 
+ 1338  tail rewards.steps.csv 
+ 1339  tail probs.csv 
+ 1340  tail rewards.steps.csv 
+ 1341  tail probs.csv 
+ 1342  tail rewards.steps.csv 
+ 1343  tail probs.csv 
+ 1344  tail rewards.steps.csv 
+ 1345  tail probs.csv 
+ 1346  tail rewards.steps.csv 
+ 1347  tail probs.csv 
+ 1348  tail rewards.steps.csv 
+ 1349  tail probs.csv 
+ 1350  tail rewards.steps.csv 
+ 1351  tail probs.csv 
+ 1352  tail rewards.steps.csv 
+ 1353  tail probs.csv 
+ 1354  tail rewards.steps.csv 
+ 1355  cat rewards.steps.csv 
+ 1356  tail probs.csv 
+ 1357  cat rewards.steps.csv 
+ 1358  tail probs.csv 
+ 1359  cat rewards.steps.csv 
+ 1360  tail probs.csv 
+ 1361  cat rewards.steps.csv 
+ 1362  tail probs.csv 
+ 1363  cat rewards.steps.csv 
+ 1364  tail probs.csv 
+ 1365  cat rewards.steps.csv 
+ 1366  tail probs.csv 
+ 1367  cat rewards.steps.csv 
+ 1368  tail probs.csv 
+ 1369  cat rewards.steps.csv 
+ 1370  tail probs.csv 
+ 1371  cat rewards.steps.csv 
+ 1372  tail probs.csv 
+ 1373  cat rewards.steps.csv 
+ 1374  tail probs.csv 
+ 1375  cat rewards.steps.csv 
+ 1376  tail probs.csv 
+ 1377  cat rewards.steps.csv 
+ 1378  tail probs.csv 
+ 1379  cat rewards.steps.csv 
+ 1380  tail probs.csv 
+ 1381  cat rewards.steps.csv 
+ 1382  tail probs.csv 
+ 1383  cat rewards.steps.csv 
+ 1384  tail probs.csv 
+ 1385  cat rewards.steps.csv 
+ 1386  tail probs.csv 
+ 1387  cat rewards.steps.csv 
+ 1388  tail probs.csv 
+ 1389  cat rewards.steps.csv 
+ 1390  tail probs.csv 
+ 1391  cat rewards.steps.csv 
+ 1392  tail probs.csv 
+ 1393  cat rewards.steps.csv 
+ 1394  tail probs.csv 
+ 1395  cat rewards.steps.csv 
+ 1396  tail probs.csv 
+ 1397  cat rewards.steps.csv 
+ 1398  tail probs.csv 
+ 1399  cat rewards.steps.csv 
+ 1400  tail probs.csv 
+ 1401  cat rewards.steps.csv 
+ 1402  tail probs.csv 
+ 1403  cat rewards.steps.csv 
+ 1404  cd romeo/data/output/WELAW/synthetic/
+ 1405  tail rewards.steps.csv 
+ 1406  tail probs.csv 
+ 1407  tail rewards.steps.csv 
+ 1408  tail probs.csv 
+ 1409  tail rewards.steps.csv 
+ 1410  tail probs.csv 
+ 1411  tail rewards.steps.csv 
+ 1412  cat rewards.steps.csv 
+ 1413  tail probs.csv 
+ 1414  cd romeo/data/output/WELAW/synthetic/
+ 1415  tail rewards.
+ 1416  tail rewards.steps.csv 
+ 1417  tail probs.csv 
+ 1418  tail rewards.steps.csv 
+ 1419  tail probs.csv 
+ 1420  tail rewards.steps.csv 
+ 1421  tail probs.csv 
+ 1422  tail rewards.steps.csv 
+ 1423  tail probs.csv 
+ 1424  tail rewards.steps.csv 
+ 1425  tail probs.csv 
+ 1426  tail rewards.steps.csv 
+ 1427  tail probs.csv 
+ 1428  tail rewards.steps.csv 
+ 1429  tail probs.csv 
+ 1430  tail rewards.steps.csv 
+ 1431  tail probs.csv 
+ 1432  tail rewards.steps.csv 
+ 1433  tail probs.csv 
+ 1434  tail n 150 python_agent.log 
+ 1435  tail rewards.steps.csv 
+ 1436  tail probs.csv 
+ 1437  tail rewards.steps.csv 
+ 1438  tail probs.csv 
+ 1439  tail rewards.steps.csv 
+ 1440  tail probs.csv 
+ 1441  tail rewards.steps.csv 
+ 1442  tail probs.csv 
+ 1443  tail rewards.steps.csv 
+ 1444  tail probs.csv 
+ 1445  tail rewards.steps.csv 
+ 1446  tail probs.csv 
+ 1447  tail rewards.steps.csv 
+ 1448  screen -r pts-9.cse-3401002 
+ 1449  cd ..
+ 1450  find . -type f \( -name "*.csv" -o -name "*.log" \) -print | zip ../exp16.18.zip -@
+ 1451  screen -r pts-9.cse-3401002 
+ 1452  cd WELOB/linear/
+ 1453  tail rewards.
+ 1454  tail rewards.steps.csv 
+ 1455  tail probs.csv 
+ 1456  tail rewards.steps.csv 
+ 1457  tail probs.csv 
+ 1458  tail rewards.steps.csv 
+ 1459  tail probs.csv 
+ 1460  tail rewards.steps.csv 
+ 1461  tail probs.csv 
+ 1462  tail rewards.steps.csv 
+ 1463  tail probs.csv 
+ 1464  tail rewards.steps.csv 
+ 1465  tail probs.csv 
+ 1466  tail rewards.steps.csv 
+ 1467  tail probs.csv 
+ 1468  tail n 150 python_agent.log 
+ 1469  tail probs.csv 
+ 1470  tail n 150 python_agent.log 
+ 1471  tail rewards.steps.csv 
+ 1472  tail n 150 python_agent.log 
+ 1473  tail probs.csv 
+ 1474  tail rewards.steps.csv 
+ 1475  tail probs.csv 
+ 1476  tail rewards.steps.csv 
+ 1477  tail probs.csv 
+ 1478  tail rewards.steps.csv 
+ 1479  tail probs.csv 
+ 1480  tail rewards.steps.csv 
+ 1481  tail probs.csv 
+ 1482  tail rewards.steps.csv 
+ 1483  tail probs.csv 
+ 1484  tail rewards.steps.csv 
+ 1485  tail probs.csv 
+ 1486  tail rewards.steps.csv 
+ 1487  tail probs.csv 
+ 1488  tail rewards.steps.csv 
+ 1489  tail probs.csv 
+ 1490  cd romeo/data/output/WELOB/linear/
+ 1491  tail rewards.steps.csv 
+ 1492  tail probs.csv 
+ 1493  cd ..
+ 1494  cd ELOB/
+ 1495  cd linear/
+ 1496  tail rewards.steps.csv 
+ 1497  tail probs.csv 
+ 1498  tail rewards.steps.csv 
+ 1499  tail probs.csv 
+ 1500  tail -n 150 python_agent.log 
+ 1501  tail rewards.steps.csv 
+ 1502  tail -n 150 python_agent.log 
+ 1503  tail probs.csv 
+ 1504  tail -n 150 python_agent.log 
+ 1505  tail probs.csv 
+ 1506  cd romeo/data/output/ELOB/linear/
+ 1507  tail rewards.steps.csv 
+ 1508  tail probs.csv 
+ 1509  cd ..
+ 1510  cd ../LOB/
+ 1511  cd linear/
+ 1512  tail re
+ 1513  tail rewards.steps.csv 
+ 1514  tail probs.csv 
+ 1515  cd romeo/data/output/LOB/linear/
+ 1516  tail rewards.steps.csv 
+ 1517  tail probs.csv 
+ 1518  tail rewards.steps.csv 
+ 1519  tail probs.csv 
+ 1520  tail rewards.steps.csv 
+ 1521  tail probs.csv 
+ 1522  tail rewards.steps.csv 
+ 1523  tail probs.csv 
+ 1524  tail rewards.steps.csv 
+ 1525  tail probs.csv 
+ 1526  tail -n 150 python_agent.log 
+ 1527  tail probs.csv 
+ 1528  tail rewards.steps.csv 
+ 1529  tail probs.csv 
+ 1530  tail rewards.steps.csv 
+ 1531  tail probs.csv 
+ 1532  tail rewards.steps.csv 
+ 1533  tail probs.csv 
+ 1534  tail rewards.steps.csv 
+ 1535  cd romeo/data/output/WELAW/linear/
+ 1536  tail rewards.steps.csv 
+ 1537  tail probs.csv 
+ 1538  tail rewards.
+ 1539  tail rewards.steps.csv 
+ 1540  tail probs.csv 
+ 1541  tail rewards.steps.csv 
+ 1542  tail probs.csv 
+ 1543  tail rewards.steps.csv 
+ 1544  tail probs.csv 
+ 1545  tail rewards.steps.csv 
+ 1546  cd ..
+ 1547  find . -type f \( -name "*.csv" -o -name "*.log" \) -print | zip ../exp16.20.zip -@
+ 1548  ls -la
+ 1549  screen -r pts-9.cse-3401002 
+ 1550  cd WELOB/synthetic5s/
+ 1551  ls -la
+ 1552  tail python_agent.log 
+ 1553  tail probs.csv 
+ 1554  cd ../../ELOB/synthetic5s/
+ 1555  tail rewards.steps.csv 
+ 1556  tail probs.csv 
+ 1557  tail rewards.steps.csv 
+ 1558  tail probs.csv 
+ 1559  tail rewards.steps.csv 
+ 1560  tail probs.csv 
+ 1561  tail rewards.steps.csv 
+ 1562  tail probs.csv 
+ 1563  tail rewards.steps.csv 
+ 1564  tail probs.csv 
+ 1565  tail rewards.steps.csv 
+ 1566  tail probs.csv 
+ 1567  tail rewards.steps.csv 
+ 1568  tail probs.csv 
+ 1569  tail rewards.steps.csv 
+ 1570  tail probs.csv 
+ 1571  tail rewards.steps.csv 
+ 1572  cd ..
+ 1573  cd LOB/synthetic5s/
+ 1574  tail rewards.steps.csv 
+ 1575  tail probs.csv 
+ 1576  cd romeo/data/output/WELAW/synthetic5s/
+ 1577  tail rewards.steps.csv 
+ 1578  tail probs.csv 
+ 1579  tail rewards.steps.csv 
+ 1580  tail probs.csv 
+ 1581  tail rewards.steps.csv 
+ 1582  tail probs.csv 
+ 1583  tail rewards.steps.csv 
+ 1584  tail probs.csv 
+ 1585  tail rewards.steps.csv 
+ 1586  tail probs.csv 
+ 1587  tail rewards.steps.csv 
+ 1588  tail probs.csv 
+ 1589  tail rewards.steps.csv 
+ 1590  cd romeo/data/output/WELAW/
+ 1591  cd synthetic5s/
+ 1592  tail rewards.steps.csv 
+ 1593  tail probs.csv 
+ 1594  tail -n 150 python_agent.log 
+ 1595  tail probs.csv 
+ 1596  tail rewards.steps.csv 
+ 1597  tail probs.csv 
+ 1598  tail rewards.steps.csv 
+ 1599  tail probs.csv 
+ 1600  tail -n 150 python_agent.log 
+ 1601  tail probs.csv 
+ 1602  conda activate romeo
+ 1603  ./scripts/all_usecases_policies.sh 
+ 1604  nano ./scripts/all_usecases_policies.sh 
+ 1605  cd data/
+ 1606  ls
+ 1607  cd output/
+ 1608  rm -rf *
+ 1609  cd ..
+ 1610  nano ./scripts/all_usecases_policies.sh 
+ 1611  ./scripts/all_usecases_policies.sh 
+ 1612  nano ./scripts/all_usecases_policies.sh 
+ 1613  rm -rf data/output/8
+ 1614  rm -rf data/output/*
+ 1615  ./scripts/all_usecases_policies.sh 
+ 1616  cd data/output/
+ 1617  rm -rf *
+ 1618  ls
+ 1619  cd ..
+ 1620  ls
+ 1621  cd ..
+ 1622  ./scripts/start_all_evaluation_CCR.sh 
+ 1623  exit
+ 1624  conda activate romeo
+ 1625  ./scripts/start_all_evaluation_CCR.sh 
+ 1626  exit
+ 1627  conda activate romeo
+ 1628  ./scripts/start_all_evaluation_CCR.sh 
+ 1629  exit
+ 1630  conda activate romeo
+ 1631  ./scripts/start_all_evaluation_CCR.sh 
+ 1632  exit
+ 1633  conda activate romeo
+ 1634  ./scripts/start_all_evaluation_CCR.sh 
+ 1635  exit
+ 1636  cd romeo/data/output/WELAW/synthetic5s/
+ 1637  tail rewards.steps.csv 
+ 1638  cd ..
+ 1639  find . -type f \( -name "*.csv" -o -name "*.log" \) -print | zip ../exp16.21.zip -@
+ 1640  conda activate romeo
+ 1641  ./scripts/start_all_evaluation_CCR.sh 
+ 1642  exit
+ 1643  conda activate romeo
+ 1644  ./scripts/start_all_evaluation_CCR.sh 
+ 1645  exit
+ 1646  /usr/bin/python3 /home/vincenzo/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/vincenzo/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+ 1647  git pull
+ 1648  screen -r pts-9.cse-3401002 
+ 1649  screen
+ 1650  conda activate romeo
+ 1651  ./scripts/start_all_evaluation_CCR.sh 
+ 1652  ls -la data/output/13/AOB/synthetic-CCR/1/900/3/
+ 1653  t
+ 1654  exit
+ 1655  /usr/bin/python3 /home/vincenzo/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/vincenzo/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+ 1656  screen -r pts-4.cse-3401002 
+ 1657  screen
+ 1658  cd romeo/data/output/13/AOB/synthetic-CCR/1/900/3/
+ 1659  tail episodes.csv 
+ 1660  cd ../4/
+ 1661  tail episodes.csv 
+ 1662  cd romeo/data/input/
+ 1663  ls
+ 1664  head input.txt 
+ 1665  man vfork
+ 1666  mvn clean install
+ 1667  mvn clean package
+ 1668  mvn dependency:build-classpath
+ 1669  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" io.github.ericmedvet.jgea.experimenter.Starter -v -nr 1 -nt 8 -f ./src/main/resources/experiments/experiment.txt
+ 1670  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter"
+ 1671  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f ./src/main/resources/experiments/experiment.txt"
+ 1672  java -cp "/home/vincenzo/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.core/2.7.1-SNAPSHOT/jgea.core-2.7.1-SNAPSHOT.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.core/1.1.1-SNAPSHOT/jsdynsym.core-1.1.1-SNAPSHOT.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.datastructure/1.4.1-SNAPSHOT/jnb.datastructure-1.4.1-SNAPSHOT.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.problem/2.7.1-SNAPSHOT/jgea.problem-2.7.1-SNAPSHOT.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.control/1.1.1-SNAPSHOT/jsdynsym.control-1.1.1-SNAPSHOT.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jviz.core/1.0.0/jviz.core-1.0.0.jar:/home/vincenzo/.m2/repository/org/jcodec/jcodec/0.2.5/jcodec-0.2.5.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-csv/1.10.0/commons-csv-1.10.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.experimenter/2.7.1-SNAPSHOT/jgea.experimenter-2.7.1-SNAPSHOT.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.buildable/1.1.1-SNAPSHOT/jsdynsym.buildable-1.1.1-SNAPSHOT.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.buildable/1.4.0/jnb.buildable-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.core/1.4.0/jnb.core-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/classgraph/classgraph/4.8.171/classgraph-4.8.171.jar:/home/vincenzo/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/vincenzo/.m2/repository/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2.jar:/home/vincenzo/.m2/repository/com/github/pengrad/java-telegram-bot-api/7.8.0/java-telegram-bot-api-7.8.0.jar:/home/vincenzo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/vincenzo/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/home/vincenzo/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/home/vincenzo/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/home/vincenzo/.m2/repository/com/squareup/okhttp3/logging-interceptor/4.12.0/logging-interceptor-4.12.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/vincenzo/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-cep/1.20.0/flink-cep-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-guava/31.1-jre-17.0/flink-shaded-guava-31.1-jre-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-core/1.20.0/flink-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-core-api/1.20.0/flink-core-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-metrics-core/1.20.0/flink-metrics-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-annotations/1.20.0/flink-annotations-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.5-17.0/flink-shaded-asm-9-9.5-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-jackson/2.14.2-17.0/flink-shaded-jackson-2.14.2-17.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/vincenzo/.m2/repository/org/snakeyaml/snakeyaml-engine/2.6/snakeyaml-engine-2.6.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/home/vincenzo/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/vincenzo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-file-sink-common/1.20.0/flink-file-sink-common-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-runtime/1.20.0/flink-runtime-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-core/1.20.0/flink-rpc-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-akka-loader/1.20.0/flink-rpc-akka-loader-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-queryable-state-client-java/1.20.0/flink-queryable-state-client-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-hadoop-fs/1.20.0/flink-hadoop-fs-1.20.0.jar:/home/vincenzo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.91.Final-17.0/flink-shaded-netty-4.1.91.Final-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-17.0/flink-shaded-zookeeper-3-3.7.1-17.0.jar:/home/vincenzo/.m2/repository/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar:/home/vincenzo/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/vincenzo/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.4/snappy-java-1.1.10.4.jar:/home/vincenzo/.m2/repository/tools/profiler/async-profiler/2.9/async-profiler-2.9.jar:/home/vincenzo/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-java/1.20.0/flink-java-1.20.0.jar:/home/vincenzo/.m2/repository/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-datagen/1.20.0/flink-connector-datagen-1.20.0.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vincenzo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" io.github.ericmedvet.jgea.experimenter.Starter -v -nr 1 -nt 8 -f ./src/main/resources/experiments/experiment.txt
+ 1673  mvn clean package
+ 1674  mvn clean
+ 1675  mvn clean package
+ 1676  mvn clean compile
+ 1677  cd Flink-cep-examples-main/
+ 1678  mvn clean compile
+ 1679  java -version
+ 1680  mvn -version
+ 1681  mvn clean
+ 1682  mvn package
+ 1683  java -version
+ 1684  mvn package
+ 1685  java update-alternatives --list java
+ 1686  update-alternatives --list java
+ 1687  sudo apt install openjdk-16-jdk
+ 1688  java -version
+ 1689  mvn package
+ 1690  mvn clean
+ 1691  mvn -version
+ 1692  rm -rf ~/.m2/repository
+ 1693  mvn clean
+ 1694  mvn -X clean
+ 1695  sudo apt-get install maven
+ 1696  mvn clean
+ 1697  mvn package
+ 1698  mvn compile
+ 1699  mvn clean install -U
+ 1700  mvn compile
+ 1701  mvn clean
+ 1702  mvn compile
+ 1703  mvn compile -U install
+ 1704  mvn clean
+ 1705  mvn package
+ 1706  mvn clean
+ 1707  mvn package
+ 1708  mvn clean
+ 1709  mvn compile
+ 1710  mvn clean install -U
+ 1711  mvn clean package
+ 1712  mvn clean
+ 1713  mvn package
+ 1714  mvn compile
+ 1715  mvn package
+ 1716  mvn clean
+ 1717  mvn compile
+ 1718  mvn compile intall -U
+ 1719  mvn package
+ 1720  mvn clean
+ 1721  mvn compile
+ 1722  mvn package
+ 1723  mvn -X package
+ 1724  mvn compile
+ 1725  mvn clean
+ 1726  mvn -X package
+ 1727  mvn clean
+ 1728  mvn compile
+ 1729  mvn package
+ 1730  mvn dependency:build-classpath
+ 1731  ls
+ 1732  java -cp "/home/vincenzo/.m2/repository/org/apache/flink/flink-core/1.20.0/flink-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-core-api/1.20.0/flink-core-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-metrics-core/1.20.0/flink-metrics-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-annotations/1.20.0/flink-annotations-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.5-17.0/flink-shaded-asm-9-9.5-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-jackson/2.14.2-17.0/flink-shaded-jackson-2.14.2-17.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/vincenzo/.m2/repository/org/snakeyaml/snakeyaml-engine/2.6/snakeyaml-engine-2.6.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/home/vincenzo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/home/vincenzo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-guava/31.1-jre-17.0/flink-shaded-guava-31.1-jre-17.0.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vincenzo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-cep/1.20.0/flink-cep-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-clients/1.20.0/flink-clients-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-runtime/1.20.0/flink-runtime-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-core/1.20.0/flink-rpc-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-akka-loader/1.20.0/flink-rpc-akka-loader-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-queryable-state-client-java/1.20.0/flink-queryable-state-client-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-hadoop-fs/1.20.0/flink-hadoop-fs-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.91.Final-17.0/flink-shaded-netty-4.1.91.Final-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-17.0/flink-shaded-zookeeper-3-3.7.1-17.0.jar:/home/vincenzo/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/vincenzo/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.4/snappy-java-1.1.10.4.jar:/home/vincenzo/.m2/repository/tools/profiler/async-profiler/2.9/async-profiler-2.9.jar:/home/vincenzo/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-optimizer/1.20.0/flink-optimizer-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-java/1.20.0/flink-java-1.20.0.jar:/home/vincenzo/.m2/repository/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar:/home/vincenzo/.m2/repository/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-datagen/1.20.0/flink-connector-datagen-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-datastream/1.20.0/flink-datastream-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-datastream-api/1.20.0/flink-datastream-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-files/1.20.0/flink-connector-files-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-file-sink-common/1.20.0/flink-file-sink-common-1.20.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.core/2.7.0/jgea.core-2.7.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.core/1.1.0/jsdynsym.core-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.datastructure/1.4.0/jnb.datastructure-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.problem/2.7.0/jgea.problem-2.7.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.control/1.1.0/jsdynsym.control-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jviz.core/1.0.0/jviz.core-1.0.0.jar:/home/vincenzo/.m2/repository/org/jcodec/jcodec/0.2.5/jcodec-0.2.5.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-csv/1.10.0/commons-csv-1.10.0.jar:/home/vincenzo/.m2/repository/org/antlr/antlr4/4.13.2/antlr4-4.13.2.jar:/home/vincenzo/.m2/repository/org/antlr/antlr4-runtime/4.13.2/antlr4-runtime-4.13.2.jar:/home/vincenzo/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar:/home/vincenzo/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar:/home/vincenzo/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/vincenzo/.m2/repository/com/ibm/icu/icu4j/72.1/icu4j-72.1.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/5.6.0/kryo-5.6.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar:/home/vincenzo/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/1.3.1/minlog-1.3.1.jar:/home/vincenzo/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/home/vincenzo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/vincenzo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/vincenzo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/vincenzo/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/vincenzo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/vincenzo/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar" io.github.ericmedvet.jgea.experimenter.Starter -v -nr 1 -nt 8 -f ./src/main/resources/experiments/experiment.txt
+ 1733  mvn
+ 1734  mvn clean compile
+ 1735  mvn clean
+ 1736  mvn compile
+ 1737  mvn package
+ 1738  mvn compile
+ 1739  mvn dependency:build-classpath
+ 1740  java -cp "/home/vincenzo/.m2/repository/org/apache/flink/flink-core/1.20.0/flink-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-core-api/1.20.0/flink-core-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-metrics-core/1.20.0/flink-metrics-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-annotations/1.20.0/flink-annotations-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.5-17.0/flink-shaded-asm-9-9.5-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-jackson/2.14.2-17.0/flink-shaded-jackson-2.14.2-17.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/vincenzo/.m2/repository/org/snakeyaml/snakeyaml-engine/2.6/snakeyaml-engine-2.6.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/home/vincenzo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/home/vincenzo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-guava/31.1-jre-17.0/flink-shaded-guava-31.1-jre-17.0.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vincenzo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-cep/1.20.0/flink-cep-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-clients/1.20.0/flink-clients-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-runtime/1.20.0/flink-runtime-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-core/1.20.0/flink-rpc-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-akka-loader/1.20.0/flink-rpc-akka-loader-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-queryable-state-client-java/1.20.0/flink-queryable-state-client-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-hadoop-fs/1.20.0/flink-hadoop-fs-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.91.Final-17.0/flink-shaded-netty-4.1.91.Final-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-17.0/flink-shaded-zookeeper-3-3.7.1-17.0.jar:/home/vincenzo/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/vincenzo/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.4/snappy-java-1.1.10.4.jar:/home/vincenzo/.m2/repository/tools/profiler/async-profiler/2.9/async-profiler-2.9.jar:/home/vincenzo/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-optimizer/1.20.0/flink-optimizer-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-java/1.20.0/flink-java-1.20.0.jar:/home/vincenzo/.m2/repository/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar:/home/vincenzo/.m2/repository/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-datagen/1.20.0/flink-connector-datagen-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-datastream/1.20.0/flink-datastream-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-datastream-api/1.20.0/flink-datastream-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-files/1.20.0/flink-connector-files-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-file-sink-common/1.20.0/flink-file-sink-common-1.20.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.core/2.7.0/jgea.core-2.7.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.core/1.1.0/jsdynsym.core-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.datastructure/1.4.0/jnb.datastructure-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.problem/2.7.0/jgea.problem-2.7.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.control/1.1.0/jsdynsym.control-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jviz.core/1.0.0/jviz.core-1.0.0.jar:/home/vincenzo/.m2/repository/org/jcodec/jcodec/0.2.5/jcodec-0.2.5.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-csv/1.10.0/commons-csv-1.10.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.experimenter/2.7.0/jgea.experimenter-2.7.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.buildable/1.1.0/jsdynsym.buildable-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.buildable/1.4.0/jnb.buildable-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.core/1.4.0/jnb.core-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/classgraph/classgraph/4.8.171/classgraph-4.8.171.jar:/home/vincenzo/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/vincenzo/.m2/repository/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2.jar:/home/vincenzo/.m2/repository/com/github/pengrad/java-telegram-bot-api/7.8.0/java-telegram-bot-api-7.8.0.jar:/home/vincenzo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/vincenzo/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/home/vincenzo/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/home/vincenzo/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/home/vincenzo/.m2/repository/com/squareup/okhttp3/logging-interceptor/4.12.0/logging-interceptor-4.12.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/vincenzo/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar:/home/vincenzo/.m2/repository/org/antlr/antlr4/4.13.2/antlr4-4.13.2.jar:/home/vincenzo/.m2/repository/org/antlr/antlr4-runtime/4.13.2/antlr4-runtime-4.13.2.jar:/home/vincenzo/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar:/home/vincenzo/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar:/home/vincenzo/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/vincenzo/.m2/repository/com/ibm/icu/icu4j/72.1/icu4j-72.1.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/5.6.0/kryo-5.6.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar:/home/vincenzo/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/1.3.1/minlog-1.3.1.jar:/home/vincenzo/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/home/vincenzo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/vincenzo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/vincenzo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/vincenzo/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/vincenzo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/vincenzo/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar" io.github.ericmedvet.jgea.experimenter.Starter -v -nr 1 -nt 8 -f ./src/main/resources/experiments/experiment.txt
+ 1741  sudo apt install openjdk-21-jdk
+ 1742  java -version
+ 1743  mvn clean
+ 1744  mvn package
+ 1745  mvn compile
+ 1746  mvn package
+ 1747  java -cp "/home/vincenzo/.m2/repository/org/apache/flink/flink-core/1.20.0/flink-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-core-api/1.20.0/flink-core-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-metrics-core/1.20.0/flink-metrics-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-annotations/1.20.0/flink-annotations-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.5-17.0/flink-shaded-asm-9-9.5-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-jackson/2.14.2-17.0/flink-shaded-jackson-2.14.2-17.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/vincenzo/.m2/repository/org/snakeyaml/snakeyaml-engine/2.6/snakeyaml-engine-2.6.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/home/vincenzo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/home/vincenzo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-guava/31.1-jre-17.0/flink-shaded-guava-31.1-jre-17.0.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vincenzo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-cep/1.20.0/flink-cep-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-clients/1.20.0/flink-clients-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-runtime/1.20.0/flink-runtime-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-core/1.20.0/flink-rpc-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-akka-loader/1.20.0/flink-rpc-akka-loader-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-queryable-state-client-java/1.20.0/flink-queryable-state-client-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-hadoop-fs/1.20.0/flink-hadoop-fs-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.91.Final-17.0/flink-shaded-netty-4.1.91.Final-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-17.0/flink-shaded-zookeeper-3-3.7.1-17.0.jar:/home/vincenzo/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/vincenzo/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.4/snappy-java-1.1.10.4.jar:/home/vincenzo/.m2/repository/tools/profiler/async-profiler/2.9/async-profiler-2.9.jar:/home/vincenzo/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-optimizer/1.20.0/flink-optimizer-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-java/1.20.0/flink-java-1.20.0.jar:/home/vincenzo/.m2/repository/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar:/home/vincenzo/.m2/repository/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-datagen/1.20.0/flink-connector-datagen-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-datastream/1.20.0/flink-datastream-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-datastream-api/1.20.0/flink-datastream-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-files/1.20.0/flink-connector-files-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-file-sink-common/1.20.0/flink-file-sink-common-1.20.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.core/2.7.0/jgea.core-2.7.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.core/1.1.0/jsdynsym.core-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.datastructure/1.4.0/jnb.datastructure-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.problem/2.7.0/jgea.problem-2.7.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.control/1.1.0/jsdynsym.control-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jviz.core/1.0.0/jviz.core-1.0.0.jar:/home/vincenzo/.m2/repository/org/jcodec/jcodec/0.2.5/jcodec-0.2.5.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-csv/1.10.0/commons-csv-1.10.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.experimenter/2.7.0/jgea.experimenter-2.7.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.buildable/1.1.0/jsdynsym.buildable-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.buildable/1.4.0/jnb.buildable-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.core/1.4.0/jnb.core-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/classgraph/classgraph/4.8.171/classgraph-4.8.171.jar:/home/vincenzo/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/vincenzo/.m2/repository/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2.jar:/home/vincenzo/.m2/repository/com/github/pengrad/java-telegram-bot-api/7.8.0/java-telegram-bot-api-7.8.0.jar:/home/vincenzo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/vincenzo/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/home/vincenzo/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/home/vincenzo/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/home/vincenzo/.m2/repository/com/squareup/okhttp3/logging-interceptor/4.12.0/logging-interceptor-4.12.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/vincenzo/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar:/home/vincenzo/.m2/repository/org/antlr/antlr4/4.13.2/antlr4-4.13.2.jar:/home/vincenzo/.m2/repository/org/antlr/antlr4-runtime/4.13.2/antlr4-runtime-4.13.2.jar:/home/vincenzo/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar:/home/vincenzo/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar:/home/vincenzo/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/vincenzo/.m2/repository/com/ibm/icu/icu4j/72.1/icu4j-72.1.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/5.6.0/kryo-5.6.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar:/home/vincenzo/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/1.3.1/minlog-1.3.1.jar:/home/vincenzo/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/home/vincenzo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/vincenzo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/vincenzo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/vincenzo/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/vincenzo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/vincenzo/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar" io.github.ericmedvet.jgea.experimenter.Starter -v -nr 1 -nt 8 -f ./src/main/resources/experiments/experiment.txt
+ 1748  mvn clean
+ 1749  mvn compile
+ 1750  mvn package
+ 1751  mvn compile
+ 1752  mvn package
+ 1753  java -cp "/home/vincenzo/.m2/repository/org/apache/flink/flink-core/1.20.0/flink-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-core-api/1.20.0/flink-core-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-metrics-core/1.20.0/flink-metrics-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-annotations/1.20.0/flink-annotations-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.5-17.0/flink-shaded-asm-9-9.5-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-jackson/2.14.2-17.0/flink-shaded-jackson-2.14.2-17.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/vincenzo/.m2/repository/org/snakeyaml/snakeyaml-engine/2.6/snakeyaml-engine-2.6.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/home/vincenzo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/home/vincenzo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-guava/31.1-jre-17.0/flink-shaded-guava-31.1-jre-17.0.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vincenzo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-cep/1.20.0/flink-cep-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-clients/1.20.0/flink-clients-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-runtime/1.20.0/flink-runtime-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-core/1.20.0/flink-rpc-core-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-rpc-akka-loader/1.20.0/flink-rpc-akka-loader-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-queryable-state-client-java/1.20.0/flink-queryable-state-client-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-hadoop-fs/1.20.0/flink-hadoop-fs-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.91.Final-17.0/flink-shaded-netty-4.1.91.Final-17.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-17.0/flink-shaded-zookeeper-3-3.7.1-17.0.jar:/home/vincenzo/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/vincenzo/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.4/snappy-java-1.1.10.4.jar:/home/vincenzo/.m2/repository/tools/profiler/async-profiler/2.9/async-profiler-2.9.jar:/home/vincenzo/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-optimizer/1.20.0/flink-optimizer-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-java/1.20.0/flink-java-1.20.0.jar:/home/vincenzo/.m2/repository/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar:/home/vincenzo/.m2/repository/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-datagen/1.20.0/flink-connector-datagen-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-datastream/1.20.0/flink-datastream-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-datastream-api/1.20.0/flink-datastream-api-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-connector-files/1.20.0/flink-connector-files-1.20.0.jar:/home/vincenzo/.m2/repository/org/apache/flink/flink-file-sink-common/1.20.0/flink-file-sink-common-1.20.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.core/2.7.0/jgea.core-2.7.0.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.core/1.1.0/jsdynsym.core-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.datastructure/1.4.0/jnb.datastructure-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.problem/2.7.0/jgea.problem-2.7.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.control/1.1.0/jsdynsym.control-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jviz.core/1.0.0/jviz.core-1.0.0.jar:/home/vincenzo/.m2/repository/org/jcodec/jcodec/0.2.5/jcodec-0.2.5.jar:/home/vincenzo/.m2/repository/org/apache/commons/commons-csv/1.10.0/commons-csv-1.10.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jgea.experimenter/2.7.0/jgea.experimenter-2.7.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jsdynsym.buildable/1.1.0/jsdynsym.buildable-1.1.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.buildable/1.4.0/jnb.buildable-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/ericmedvet/jnb.core/1.4.0/jnb.core-1.4.0.jar:/home/vincenzo/.m2/repository/io/github/classgraph/classgraph/4.8.171/classgraph-4.8.171.jar:/home/vincenzo/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/vincenzo/.m2/repository/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2.jar:/home/vincenzo/.m2/repository/com/github/pengrad/java-telegram-bot-api/7.8.0/java-telegram-bot-api-7.8.0.jar:/home/vincenzo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/vincenzo/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/home/vincenzo/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/home/vincenzo/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/home/vincenzo/.m2/repository/com/squareup/okhttp3/logging-interceptor/4.12.0/logging-interceptor-4.12.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/vincenzo/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/vincenzo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar:/home/vincenzo/.m2/repository/org/antlr/antlr4/4.13.2/antlr4-4.13.2.jar:/home/vincenzo/.m2/repository/org/antlr/antlr4-runtime/4.13.2/antlr4-runtime-4.13.2.jar:/home/vincenzo/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar:/home/vincenzo/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar:/home/vincenzo/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/vincenzo/.m2/repository/com/ibm/icu/icu4j/72.1/icu4j-72.1.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/kryo/5.6.0/kryo-5.6.0.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar:/home/vincenzo/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/vincenzo/.m2/repository/com/esotericsoftware/minlog/1.3.1/minlog-1.3.1.jar:/home/vincenzo/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/vincenzo/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/home/vincenzo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/vincenzo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/vincenzo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/vincenzo/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/vincenzo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/vincenzo/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar" io.github.ericmedvet.jgea.experimenter.Starter -v -nr 1 -nt 8 -f ./src/main/resources/experiments/experiment.txt
+ 1754  mvn clean
+ 1755  ls
+ 1756  cd Flink-cep-examples-main/
+ 1757  mvn clean
+ 1758  mvn compile
+ 1759  mvn package
+ 1760  mvn compile
+ 1761  mvn clean
+ 1762  mvn compile
+ 1763  mvn exec:java -Dexec.mainClass="app.MyStarter"
+ 1764  cd Flink-cep-examples-main/
+ 1765  mvn exec:java -Dexec.mainClass="app.MyStarter"
+ 1766  mvn clean
+ 1767  mvn package
+ 1768  mvn compile
+ 1769  mvn install
+ 1770  mvn exec:java -Dexec.mainClass="app.MyStarter"
+ 1771  mvn clean
+ 1772  mvn exec:java -Dexec.mainClass="app.MyStarter"
+ 1773  mvn compile
+ 1774  java -version
+ 1775  mvn compile
+ 1776  mvn exec:java -Dexec.mainClass="app.MyStarter"
+ 1777  mvn exec:java -Dexec.mainClass="app.MyStarter"java -version
+ 1778  java -version
+ 1779  echo $JAVA_HOME
+ 1780  mvn exec:java -Dexec.mainClass="app.MyStarter"java -version
+ 1781  mvn exec:java -Dexec.mainClass="app.MyStarter"
+ 1782  mvn clean
+ 1783  mvn exec:java -Dexec.mainClass="app.MyStarter"
+ 1784  mvn clean
+ 1785  mvn clean install
+ 1786  mvn compile
+ 1787  mvn exec:java -Dexec.mainClass="app.MyStarter"
+ 1788  mvn clean install
+ 1789  mvn clean
+ 1790  mvn clean install
+ 1791  git clone https://github.com/GiulioAppetito/cep-genetic-algorithms-thesis.git
+ 1792  ls
+ 1793  git branch
+ 1794  cd cep-genetic-algorithms-thesis/
+ 1795  git branch
+ 1796  git checkout vincenzo
+ 1797  git branch vincenzo
+ 1798  git branch
+ 1799  git checkout vincenzo 
+ 1800  mvn clean compile
+ 1801  ls
+ 1802  cd Flink-cep-examples-main/
+ 1803  ls
+ 1804  mvn clean compile
+ 1805  cd
+ 1806  mkdir testjgea
+ 1807  cd testjgea/
+ 1808  cd ..
+ 1809  rm testjgea/
+ 1810  mvn archetype:generate -DgroupId=com.example -DartifactId=my-java-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+ 1811  mvn archetype:generate -DgroupId=com.example -DartifactId=testjgea -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+ 1812  rm -rf testjgea/
+ 1813  mvn archetype:generate -DgroupId=com.example -DartifactId=testjgea -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+ 1814  cd testjgea/
+ 1815  mvn clean install
+ 1816  git init
+ 1817  cd
+ 1818  git clone https://github.com/ericmedvet/jgea.git
+ 1819  cd jgea/
+ 1820  mvn clean package
+ 1821  ls
+ 1822  ls ../testjgea/
+ 1823  cp -r io.github.ericmedvet.jgea.sample/ io.github.ericmedvet.jgea.flink/
+ 1824  mvn clean package
+ 1825  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter"
+ 1826  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8"
+ 1827  cd io.github.ericmedvet.jgea.experimenter/
+ 1828  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter"
+ 1829  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1830  mvn clean install
+ 1831  cd ..
+ 1832  mvn clean install
+ 1833  cd io.github.ericmedvet.jgea.experimenter/
+ 1834  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1835  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1836  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1837  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter"
+ 1838  mvn clean install
+ 1839  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter"
+ 1840  mvn clean install
+ 1841  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter"
+ 1842  mvn compile
+ 1843  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter"
+ 1844  java -cp target/jgea.experimenter-2.7.0 
+ 1845  java -cp target/jgea.experimenter-2.7.0 io.github.ericmedvet.jgea.experimenter.Starter
+ 1846  java -jar target/jgea.experimenter-2.7.0 io.github.ericmedvet.jgea.experimenter.Starter
+ 1847  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter
+ 1848  mvn compile
+ 1849  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1850  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter -v
+ 1851  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter -d
+ 1852  mvn compile
+ 1853  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter -d
+ 1854  mvn compile
+ 1855  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter -d
+ 1856  mvn compile package
+ 1857  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter -d
+ 1858  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter "-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1859  mvn clean compile package
+ 1860  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar io.github.ericmedvet.jgea.experimenter.Starter "-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1861  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar "-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1862  mvn clean compile package
+ 1863  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar "-v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1864  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar "--help"
+ 1865  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar "--verbose -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt"
+ 1866  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar --verbose -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1867  mvn clean compile package
+ 1868  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar --verbose -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1869  cd ..
+ 1870  mvn clean compile package
+ 1871  cd io.github.ericmedvet.jgea.experimenter/
+ 1872  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar --verbose -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1873  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar --v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1874  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1875  cd ..
+ 1876  mvn clean compile package
+ 1877  cd io.github.ericmedvet.jgea.experimenter/
+ 1878  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1879  git cherry-pick 70e7c8d5
+ 1880  git stash
+ 1881  git cherry-pick 70e7c8d5
+ 1882  mvn clean compile package
+ 1883  mvn clean
+ 1884  mvn install
+ 1885  touch code-style.xml
+ 1886  mvn install
+ 1887  cd ..
+ 1888  git remote add origin https://github.com/vincenzo-gulisano/flinkgea
+ 1889  git remote remove origin
+ 1890  git remote add origin https://github.com/vincenzo-gulisano/flinkgea
+ 1891  git branch
+ 1892  git push origin feature-typedtokensprocessingnetwork
+ 1893  git push origin testflink
+ 1894  git status
+ 1895  git log
+ 1896  mvn install
+ 1897  mvn spotless:apply
+ 1898  mvn install
+ 1899  mvn spotless:apply install
+ 1900  mvn spotless:apply
+ 1901  mvn package
+ 1902  git remote remove origin
+ 1903  git remote add origin https://github.com/ericmedvet/jgea/tree/develop
+ 1904  git branch
+ 1905  git checkout -b develop origin/develop
+ 1906  git remote remove origin
+ 1907  git remote add origin https://github.com/ericmedvet/jgea
+ 1908  git checkout -b develop origin/develop
+ 1909  git fetch
+ 1910  git checkout -b develop origin/develop
+ 1911  git stash
+ 1912  git checkout -b develop origin/develop
+ 1913  git stash
+ 1914  git checkout -b develop origin/develop
+ 1915  git checkout  origin/develop
+ 1916  git checkout -f origin/develop
+ 1917  git branch
+ 1918  git checkout -f -b develop origin/develop
+ 1919  git branch
+ 1920  mvn clean compile package install
+ 1921  git cherry-pick 70e7c8d5
+ 1922  mvn clean compile package install
+ 1923  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1924  cd io.github.ericmedvet.jgea.experimenter/
+ 1925  java -jar target/jgea.experimenter-2.7.0-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1926  ls target/
+ 1927  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1928  git remote remove origin
+ 1929  git remote add origin https://github.com/vincenzo-gulisano/flinkgea
+ 1930  git push origin developflink
+ 1931  git status
+ 1932  git branch
+ 1933  git push develop origin/develop
+ 1934  git branch
+ 1935  git push origin develop:develop
+ 1936  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1937  cd ..
+ 1938  grep -r "builder-help.md" .
+ 1939  grep -r "ea.problem.dataset.num" .
+ 1940  make install
+ 1941  mvn install
+ 1942  make clean package
+ 1943  mvn clean package
+ 1944  cd io.github.ericmedvet.jgea.experimenter/
+ 1945  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1946  cd ..
+ 1947  mvn clean package
+ 1948  cd io.github.ericmedvet.jgea.experimenter/
+ 1949  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1950  grep -r "ea.problem" .
+ 1951  grep -r "ea.problem" .
+ 1952  grep -r "totalOrder" .
+ 1953  cd ..
+ 1954  mvn clean package
+ 1955  cd io.github.ericmedvet.jgea.experimenter/
+ 1956  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1957  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -d -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1958  grep -r "ds.d.navigation()" .
+ 1959  cd ..
+ 1960  mvn clean package
+ 1961  cd io.github.ericmedvet.jgea.experimenter/
+ 1962  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -d -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1963  java -jar target/jgea.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -v -nr 1 -nt 8 -f ~/testjgea/src/main/resources/experiments/experiment.txt
+ 1964  mvn clean package
+ 1965  cd ..
+ 1966  mvn clean package
+ 1967  cd io.github.ericmedvet.jgea.
+ 1968  cd io.github.ericmedvet.jgea.experimenter/
+ 1969* java -jar target/jgear.experimenter-2.7.1-SNAPSHOT-jar-with-dependencies.jar -d
+ 1970  grep -r "ea.function.coMeArchive1" .
+ 1971  grep -r "ea.function.coMeArchive" .
+ 1972  grep -r "ea.function.coMeAr" .
+ 1973  grep -r "ea.function." .
+ 1974  cd ..
+ 1975  grep -r "ea.function.coMeArchive1" .
+ 1976  grep -r "problem.simulation" .
+ 1977  grep -r "problem = problem.simulation" .
+ 1978  grep -r "@Discoverable" .
+ 1979  grep -r "p.multivariateRegression" .
+ 1980  mvn clean package
+ 1981  mvn -e clean package
+ 1982  grep -r "jgea.problem" .
+ 1983  grep -r "jgea.problem" . | grep pom
+ 1984  mvn clean package
+ 1985  grep -r "jnb.core" .
+ 1986  grep -r "jnb.core" . | pom
+ 1987  grep -r "jnb.core" . | grep pom
+ 1988  mvn clean package
+ 1989  mvn dependency:tree
+ 1990  mvn dependency:tree -Dverbose -Dincludes=org.apache.flink
+ 1991  mvn dependency:tree
+ 1992  mvn dependency:tree -Ddepth=5 -Dverbose -Dincludes=org.apache.flink
+ 1993  mvn dependency:tree -Ddepth=50 -Dverbose -Dincludes=org.apache.flink
+ 1994  mvn clean compile
+ 1995  mvn clean package
+ 1996  grep -r "flink.core" .
+ 1997  mvn clean package
+ 1998  grep -r "org.apache.flink.api.java.functions" .
+ 1999  mvn clean package
+ 2000  mvn dependecy:tree
+ 2001  mvn dependency:tree
+ 2002  mvn dependency:tree | grep operators
+ 2003  mvn dependency:tree
+ 2004  mkdir temp-jar1 temp-jar2
+ 2009  cd temp-jar1/
+ 2010  jar -xvf ~/.m2/repository/org/apache/flink/flink-streaming-java/1.20.0/flink-streaming-java-1.20.0.jar
+ 2011  cd ../temp-jar2/
+ 2012  jar -xvf ~/.m2/repository/org/apache/flink/flink-core/1.20.0/flink-core-1.20.0.jar 
+ 2013  cd ..
+ 2015  mkdir mergedjar
+ 2016  cp -R temp-jar1/* mergedjar/
+ 2017  cp -R temp-jar2/* mergedjar/
+ 2023  mkdir temp-jar3
+ 2024  cd temp-jar3/
+ 2025  jar -xvf ~/.m2/repository/org/apache/flink/flink-core-api/1.20.0/flink-core-api-1.20.0.jar 
+ 2026  cd ..
+ 2027  cp -R temp-jar3/* mergedjar/
+ 2028  jar -cf merged-jar.jar -C mergedjar .
+ 2029  mvn install:install-file -Dfile=merged-jar.jar -DgroupId=custom.merged -DartifactId=merged-jar -Dversion=1.0 -Dpackaging=jar
+ 2030  mvn clean package
+ 2035  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2036  mvn clean package
+ 2037  mvn exec:java -Dexec.mainClass="io.github.ericmedvet.jgea.experimenter.Starter" -Dexec.args="-v -nr 1 -nt 8 -f src/main/resources/experiments/experiment.txt"
+ 2038  tail -n 200 ~/.bash_history > last_200_commands.txt
+ 2039  history
+ 2040  history > last_200_commands.txt 

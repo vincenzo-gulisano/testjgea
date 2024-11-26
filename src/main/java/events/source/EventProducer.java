@@ -4,10 +4,11 @@ import events.BaseEvent;
 import events.GenericEvent;
 import grammar.utils.CSVTypesExtractor;
 import grammar.types.DataTypesEnum;
+
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
-import org.apache.flink.api.common.eventtime.WatermarkStrategy;
+// import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
@@ -79,9 +80,6 @@ public class EventProducer {
             throw new IllegalArgumentException("Event list is empty. Ensure the CSV file is not empty and has correct data.");
         }
 
-        return env.fromCollection(events)
-                .assignTimestampsAndWatermarks(
-                        WatermarkStrategy.<BaseEvent>forMonotonousTimestamps()
-                        .withTimestampAssigner((event, timestamp) -> event.getTimestamp()));
+        return env.fromData(events);
     }
 }

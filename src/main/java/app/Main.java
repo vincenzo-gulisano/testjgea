@@ -7,9 +7,6 @@ import grammar.GrammarGenerator;
 import io.github.ericmedvet.jgea.core.representation.grammar.string.StringGrammar;
 import io.github.ericmedvet.jgea.core.representation.grammar.string.cfggp.GrowGrammarTreeFactory;
 import io.github.ericmedvet.jgea.core.representation.tree.Tree;
-import org.apache.flink.cep.pattern.Pattern;
-import org.apache.flink.streaming.api.datastream.DataStream;
-import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import representation.PatternRepresentation;
 import representation.mappers.RepresentationToPatternMapper;
 import representation.mappers.TreeToRepresentationMapper;
@@ -19,6 +16,10 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Properties;
 import java.util.Random;
+
+import org.apache.flink.cep.pattern.Pattern;
+import org.apache.flink.streaming.api.datastream.DataStream;
+import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 public class Main {
 

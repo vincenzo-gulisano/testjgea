@@ -9,22 +9,23 @@
   <name>testjgea</name>
   <url>http://maven.apache.org</url>
 
-    <!-- Repositories Section to Resolve Dependencies -->
-    <repositories>
-      <!-- Add Sonatype OSSRH Snapshot Repository -->
-      <repository>
-          <id>ossrh-snapshots</id>
-          <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
-          <snapshots>
-              <enabled>true</enabled>
-          </snapshots>
-      </repository>
+  <!-- Repositories Section to Resolve Dependencies -->
+  <repositories>
+    <!-- Add Sonatype OSSRH Snapshot Repository -->
+    <repository>
+      <id>ossrh-snapshots</id>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <properties>
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
     <jgea.version>2.7.1-SNAPSHOT</jgea.version>
+    <flink.version>1.20.0</flink.version>
   </properties>
 
   <dependencies>
@@ -49,6 +50,42 @@
       <artifactId>jgea.experimenter</artifactId>
       <version>${jgea.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-cep</artifactId>
+      <version>1.19.0</version>
+    </dependency>
+    <dependency>
+      <groupId>custom.merged</groupId>
+      <artifactId>merged-jar</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.16</version>
+    </dependency>
+<dependency>
+    <groupId>org.snakeyaml</groupId>
+    <artifactId>snakeyaml-engine</artifactId>
+    <version>2.8</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-compress</artifactId>
+    <version>1.27.1</version>
+</dependency>
+<dependency>
+    <groupId>com.esotericsoftware.kryo</groupId>
+    <artifactId>kryo</artifactId>
+    <version>2.24.0</version>
+</dependency>
+<dependency>
+    <groupId>com.twitter</groupId>
+    <artifactId>chill-java</artifactId>
+    <version>0.10.0</version>
+</dependency>
+
   </dependencies>
 
   <build>

@@ -20,7 +20,7 @@ public class EventSequenceMatcher {
         DataStream<BaseEvent> keyedStream = (keyByClause != null && keyByClause.key() != null)
                 ? inputDataStream.keyBy(event -> event.toMap().get(keyByClause.key()))
                 : inputDataStream;
-
+        
         for (Pattern<BaseEvent, ?> pattern : patterns) {
             DataStream<List<BaseEvent>> matchedStream = getMatchedDataStream(keyedStream, pattern);
 
